@@ -39,5 +39,5 @@ learning new things from everywhere etc.).
   * https://lsys.by - project managment and develop transfer unit
   * https://lsys.su - full develop
 6. Education (including courses, seminars, lectures, online learning)
-  ![geekbrains](https://geekbrains.ru/users/1841524)
+  https://geekbrains.ru/users/1841524
 7. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
