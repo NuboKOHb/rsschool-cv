@@ -1,0 +1,17 @@
+article {
+  background-color: lightgray;
+  width: 1024px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ol > li {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+code > pre {
+  background-color: lightgray;
+}
