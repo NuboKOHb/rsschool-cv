@@ -1,0 +1,25 @@
+div.body-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.logo {
+  margin: 10px 30px 10px 10px;
+}
+
+article {
+  background-color: lightgray;
+  width: 1024px; 
+}
+
+h1 {
+}
+
+ol > li {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+code > pre {
+  background-color: lightgray;
+}
