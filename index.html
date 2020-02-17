@@ -6,80 +6,77 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <article>
-  <h1>Aleksei, Spasiuk</h1>
-  <ol>
-    <li>Contact Info
-      <ul>
-        <li>mail spasiuk@overdrive.by</li>
-        <li>tel +375 29 888 28 17</li>
-      </ul>
-    </li>
-    <li>
-      <p>
-          Summary (your goal, wishes, reveal what is important for you, what do you want and why. Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-  learning new things from everywhere etc.).
-      </p>
-    </li>
-    <li>
-      Skills:
-      <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>javascript</li>
-        <li>mysql</li>
-        <li>bash</li>
-        <li>powershell</li>
-        <li>nmap</li>
-      </ul>
-    </li>
-    <li>Code examples (LATEST)
-      <code>
-        <pre>
-var maxSequence = function(arr){
- 
-  function getSumArray(arr) {
-    return arr.length > 0 ? arr.reduce( (sum, current) => sum+current):0;
-  }
+  <div class="body-wrap">
+    <article>
+      <div class="logo">
+        <img src="https://avatars1.githubusercontent.com/u/27440924?s=400&amp;u=80bac3cda3fa24338337552f8ed57625493ede71&amp;v=4" 
+        width="200" height="200" alt="@NuboKOHb">
+        <h1>Aleksei, Spasiuk</h1>
+      </div>
+    <ol>
+      <li>Contact Info</li>
+        <ul>
+          <li>mail spasiuk@overdrive.by</li>
+          <li>tel +375 29 888 28 17</li>
+        </ul>
+      <li>
+        Skills:
+      </li>
+        <ul>
+          <li>javascript</li>
+          <li>mysql</li>
+          <li>bash</li>
+          <li>powershell</li>
+          <li>nmap</li>
+        </ul>
+      
+      <li>Code examples (LATEST)</li>
+        <code>
+          <pre>
+  var maxSequence = function(arr){
+  
+    function getSumArray(arr) {
+      return arr.length > 0 ? arr.reduce( (sum, current) => sum+current):0;
+    }
 
-  if(arr.length == 0) {
-    return 0;
-  }
+    if(arr.length == 0) {
+      return 0;
+    }
 
-  let maxSum = 0;
-  let maxArr = [];
+    let maxSum = 0;
+    let maxArr = [];
 
-  for(let i = 0; i &lt; arr.length; i++) {
-    for (let j = 1; j &lt;= arr.length - i; j++) {
-      if (maxSum &lt; getSumArray(arr.slice(i,i+j))) {
-        maxArr = arr.slice(i,i+j);
-        maxSum = getSumArray(maxArr);
+    for(let i = 0; i &lt; arr.length; i++) {
+      for (let j = 1; j &lt;= arr.length - i; j++) {
+        if (maxSum &lt; getSumArray(arr.slice(i,i+j))) {
+          maxArr = arr.slice(i,i+j);
+          maxSum = getSumArray(maxArr);
+        }
       }
     }
+    return maxSum;
   }
-  return maxSum;
-}
-        </pre>
-      </code>
-    </li>
-    <li>Experience
-      <ul>
-        <li>
-          <a href="https://lsys.by" target="_blank">lsys.by</a> - project management and developed transfer unit
-        </li>
-        <li>
-          <a href="https://lsys.su" target="_blank">
-            lsys.su</a> - full develop
-        </li>
-      </ul>
-    <li>Education (including courses, seminars, lectures, online learning)
-      <ul>
-        <li>
-          <a href="https://geekbrains.ru/users/1841524">education profile</a>
-        </li>
-      </ul>
-    </li>
-    <li>English level A1+ </li>
-  </ol>
+          </pre>
+        </code>
+      <li>Experience
+      </li>
+        <ul>
+          <li>
+            <a href="https://lsys.by" target="_blank">lsys.by</a> - project management and developed transfer unit
+          </li>
+          <li>
+            <a href="https://lsys.su" target="_blank">
+              lsys.su</a> - full develop
+          </li>
+        </ul>
+      <li>Education (including courses, seminars, lectures, online learning)</li>
+        <ul>
+          <li>
+            <a href="https://geekbrains.ru/users/1841524">education profile</a>
+          </li>
+        </ul>
+      <li>English level A1+ </li>
+    </ol>
+  </div>
 </body>
 </html>
